@@ -11,7 +11,7 @@ $(document).ready(function() {
 			data: newBurgerObj
 		}).then(function() {
 			console.log("New Burger: " + newBurgerObj);
-			location.reload();
+			locations.reload();
 		});
 	});
 	$(".devour").on('click', function(event) {
